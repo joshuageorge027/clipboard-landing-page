@@ -1,0 +1,542 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Green-500: hsl(171, 66%, 44%);
+    --Blue-100: hsl(233, 100%, 69%);
+    --Gray-700: hsl(210, 10%, 33%);
+    --Gray-500: hsl(201, 11%, 66%);
+}
+
+body{
+
+}
+
+img{
+    max-width: 100%;
+}
+
+.continer{
+    display: grid;
+    /* padding: 20px; */
+}
+
+.logo-and-text{
+    text-align: center;
+    background: url('./images/bg-header-mobile.png')no-repeat top ;
+    /* background-size: cover; */
+    padding: 20px;
+    height: auto;
+    
+}
+
+.logo-and-text img{
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.history{
+    /* text-align: center; */
+    font-size: 33px;
+    width: 100%;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+}
+
+.clipboard-paragraph{
+    font-size: 20px;
+    width: 100%;
+    padding: 19px;
+    margin-bottom: 10px;
+    color: var(--Gray-500);
+}
+
+
+
+.Download{
+    width: 90%;
+    height: 48px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: var(--Green-500);
+
+}
+.Download-mac{
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: var(--Blue-100);
+
+}
+
+.keep-track{
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 10%;
+
+}
+.keep-track h1{
+    font-size: 33px;
+    width: 100%;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+}
+
+.keep-track p{
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: var(--Gray-500);
+}
+
+.laptop img{
+    padding:  0 10% 20px 10%;
+}
+
+.grid{
+    text-align: center;
+}
+
+.quick-cloud-history{
+    padding:  25px 10%;
+}
+
+
+.quick-search h1{
+   font-size: 28px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 15px 0;
+
+}
+
+.quick-search p{
+    font-size: 19px;
+    color: var(--Gray-500);
+    margin-bottom: 30px;
+}
+.icloud h1{
+   font-size: 28px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 15px 0;
+
+}
+
+.icloud p{
+    font-size: 19px;
+    color: var(--Gray-500);
+    margin-bottom: 30px;
+}
+.complete h1{
+   font-size: 28px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 15px 0;
+
+}
+
+.complete p{
+    font-size: 19px;
+    color: var(--Gray-500);
+    margin-bottom: 30px;
+}
+
+
+
+
+.snippets{
+    margin-bottom: 25%;
+}
+
+.access-clipboard{
+    text-align: center;
+    margin: 10%;
+    
+}
+
+.access-clipboard h1{
+    font-size: 33px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 15px 0;
+}
+.access-clipboard p{
+    font-size: 20px;
+    color: var(--Gray-500);
+    margin-bottom: 30px;
+}
+
+.create-plain-sneak{
+    text-align: center;
+    padding: 25px;
+    margin-top: 10%;
+
+}
+
+.create h1{
+    font-size: 33px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 18px 0;
+}
+.create p{
+    font-size: 20px;
+    color: var(--Gray-500);
+    margin-bottom: 28px;
+}
+.plain h1{
+    font-size: 33px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 18px 0;
+}
+.plain p{
+    font-size: 20px;
+    color: var(--Gray-500);
+    margin-bottom: 28px;
+}
+.sneak h1{
+    font-size: 33px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 18px 0;
+}
+.sneak p{
+    font-size: 20px;
+    color: var(--Gray-500);
+    margin-bottom: 28px;
+}
+
+.browsers{
+    display: grid;
+    place-content: center;
+    gap: 42px;
+    height: 65vh;
+    padding: 10px;
+    
+}
+.ios-and-mac{
+    height: 50vh;
+    padding: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: grid;
+
+}
+.ios-and-mac h1{
+     font-size: 33px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 18px 0;
+}
+
+.ios-and-mac p{
+     font-size: 20px;
+    color: var(--Gray-500);
+    margin-bottom: 28px;
+}
+
+.ios{
+     width: 90%;
+    height: 48px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: var(--Green-500);
+}
+
+.mac{
+    width: 90%;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: var(--Blue-100); 
+}
+
+
+.links-and-socials{
+    background-color: rgb(230, 229, 229);
+    display: grid;
+    place-content: center;
+    place-items: center;
+    padding: 50px;
+    gap: 40px;
+    text-align: center;
+    margin-top: 22%;
+}
+.links-and-socials a{
+    text-decoration: none;
+    font-size: 23px;
+    color: var(--Gray-700);
+
+}
+.links-and-socials a:hover{
+    color: var(--Green-500);
+    transition: 0.5ms ease-in;
+
+}
+
+
+
+.footer-logo{
+    width: 100px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.links-and-socials li{
+    list-style-type: none;
+}
+
+.socials{
+    display: flex;
+    gap: 40px;
+}
+.socials img{
+    margin-bottom: 20px;
+}
+
+/* MOBILE DESIGN */
+@media screen and (min-width:768px) {
+    .logo-and-text{
+        background: url('./images/bg-header-desktop.png') no-repeat top;
+        text-align: center;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        /* background-size: 50px; */
+    }
+
+    
+
+    img{
+        max-width: 150%;
+    }
+
+    .clipboard-paragraph{
+        width: 40%;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+
+    .Download{
+        width: 200px;
+        border-radius: 25px;
+    }
+    .Download-mac{
+        width: 200px;
+        border-radius: 25px;
+    }
+
+    .keep-track{
+        margin-top: 100px;
+        display: grid;
+        place-content: center;
+        place-items: center;
+    }
+
+    .keep-track p{
+        width: 35%;
+        margin: 0;
+    }
+
+    .snippets{
+        display: flex;
+        gap: 90px;
+        /* display: grid;
+        grid-template-columns: 60% 50%; */
+        padding: 0 30px 0 0;
+        margin: 0;
+    }
+
+
+    #laptop{
+        width: 140%;
+        margin-left: -40px;
+    }
+
+   .quick-cloud-history{
+    text-align: left;
+   }
+
+   .quick-search h1{
+   font-size: 25px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 15px 0;
+
+}
+
+.quick-search p{
+    font-size: 19px;
+    color: var(--Gray-500);
+    margin-bottom: 30px;
+}
+.icloud h1{
+   font-size: 25px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 15px 0;
+
+}
+
+.icloud p{
+    font-size: 19px;
+    color: var(--Gray-500);
+    margin-bottom: 30px;
+}
+.complete h1{
+   font-size: 25px;
+    color: var(--Gray-700);
+    font-family: sans-serif;
+    margin: 15px 0;
+
+}
+
+.complete p{
+    font-size: 19px;
+    color: var(--Gray-500);
+    margin-bottom: 30px;
+}
+
+
+.access-clipboard{
+    display: grid;
+    place-items: center;
+    padding-bottom: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+
+.access-clipboard p{
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.create-plain-sneak{
+    height: auto;
+    display: flex;
+    margin: 10px;
+    padding: 0;
+    gap: 30px;
+    justify-content: center; 
+     align-items: center;
+}
+
+.create-plain-sneak h1{
+    font-size: 25px;
+}
+
+
+.create-plain-sneak p{
+    width: 95%;
+}
+
+
+.browsers{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    height: 40vh;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0;
+     
+}
+
+.browsers img{
+    width: 130px;
+    /* height: 40px; */
+}
+
+
+.ios-and-mac{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.ios-and-mac p{
+    width: 50%;
+}
+
+
+.ios{
+        width: 200px;
+        border-radius: 25px;
+    }
+    .mac{
+        width: 200px;
+        border-radius: 25px;
+    }
+
+
+
+
+
+    .links-and-socials{
+        margin: 0;
+        display: flex;
+        height: 30vh;
+        justify-content: space-around;
+    }
+
+
+
+    .links{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+
+    .links a{
+        font-size: 19px;
+    }
+
+    .firstchild{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .secondchild{
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
